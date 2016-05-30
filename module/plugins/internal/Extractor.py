@@ -5,7 +5,7 @@ import re
 
 from module.PyFile import PyFile
 from module.plugins.internal.Plugin import Plugin
-
+from module.utils import fs_encode
 
 class ArchiveError(Exception):
     pass
